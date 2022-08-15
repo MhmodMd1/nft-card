@@ -27,6 +27,7 @@
     overflow: hidden;
     position: relative;
     height: fit-content;
+    height: 300px;
 }
 .parent .card .image img {
     width: 100%;
@@ -79,12 +80,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .info .price {
     display: flex;
     align-items: center;
     color: hsl(178, 100%, 50%);
+    font-weight: 300;
+    opacity: 0.9;
 }
 .info .price span {
     margin-left: 10px;
@@ -122,6 +125,7 @@ p {
 }
 .about p {
     margin-left: 10px;
+    font-weight: 500;
 }
 .about p span {
     color: hsl(0, 0%, 100%);
