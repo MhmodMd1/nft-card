@@ -61,46 +61,46 @@
 .parent .card .image:hover::after {
     visibility: visible;
 }
-h2 {
+.parent h1 {
     color: hsl(0, 0%, 100%);
     font-size: 22px;
     margin: 15px 0;
     transition: 0.2s;
 }
-h2:hover {
+.parent h1:hover {
     color: hsl(178, 100%, 50%);
 }
-p {
+.parent p {
     color:hsl(215, 51%, 70%);
     line-height: 1.5;
     font-size: 18px;
     font-weight: 300;
 }
-.info {
+.parent .info {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
 }
-.info .price {
+.parent .info .price {
     display: flex;
     align-items: center;
     color: hsl(178, 100%, 50%);
     font-weight: 300;
     opacity: 0.9;
 }
-.info .price span {
+.parent .info .price span {
     margin-left: 10px;
 }
-.info .date {
+.parent .info .date {
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
 }
-.info .date span {
+.parent .info .date span {
     margin-left: 10px;
 }
-.about {
+.parent .about {
     height: 50px;
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@ p {
     position: relative;
     width: 100%;
 }
-.about::after {
+.parent .about::after {
     content: "";
     position: absolute;
     left: 0;
@@ -117,20 +117,20 @@ p {
     width: 100%;
     background-color: hsl(215, 32%, 27%);
 }
-.about img {
+.parent .about img {
     width: 30px;
     height: 30px;
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
 }
-.about p {
+.parent .about p {
     margin-left: 10px;
     font-weight: 500;
 }
-.about p span {
+.parent.about p span {
     color: hsl(0, 0%, 100%);
     transition: 0.2s;
 }
-.about p span:hover {
+.parent .about p span:hover {
     color: hsl(178, 100%, 50%);
 }
