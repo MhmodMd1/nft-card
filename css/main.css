@@ -61,13 +61,13 @@
 .parent .card .image:hover::after {
     visibility: visible;
 }
-.parent h1 {
+.parent .card h1 {
     color: hsl(0, 0%, 100%);
     font-size: 22px;
     margin: 15px 0;
     transition: 0.2s;
 }
-.parent h1:hover {
+.parent .card  h1:hover {
     color: hsl(178, 100%, 50%);
 }
 .parent p {
